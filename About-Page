@@ -7,3 +7,7 @@
         <link rel="stylesheet" type="text/css" href="website-style.css">
   </head/>
   
+  <div>
+    <h1>Red Squirrel</h1>
+    <h2>Welcome!</h2>
+  </div>
