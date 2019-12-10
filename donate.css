@@ -46,7 +46,7 @@ footer {
 .donation-box {
 	width: 390px;
 	height: 386px;
-	background-color: #F5F5F5;
+	background-color: #f2f2f2;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	position: relative;
@@ -60,7 +60,7 @@ footer {
 }
 
 .donation-box .title {
-	background-color: #C1D82F;
+	background-color: rgb(255, 136, 51);
 	width: 100%;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
@@ -72,7 +72,7 @@ footer {
 }
 
 .donation-box .donate-button {
-	background-color: #C1D82F;
+	background-color: rgb(255, 136, 51);
 	width: 100%;
 	color: white;
 	text-align: center;
@@ -99,8 +99,8 @@ footer {
 	padding: 10px;
 	border-radius: 4px;
 	border-width: 0px;
-	color: #5C5C5C;
-	font-family: 'Montserrat', sans-serif;
+	color: rgb(255, 136, 51);
+	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
 	margin-bottom: 10px;
 	-webkit-font-smoothing: antialiased;
@@ -153,11 +153,11 @@ footer {
 }
 
 .donation-box .amount .button:hover {
-	background-color: #393939;
+	background-color: rgb(255, 136, 51);
 }
 
 .donation-box .amount .button.selected {
-	background-color: #393939;
+	background-color: rgb(255, 136, 51);
 }
 
 .donation-box .amount .button input {
@@ -167,7 +167,7 @@ footer {
 	border: none;
 	background-color: transparent;
 	color: white;
-	font-family: Montserrat, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 20px;
 	font-stretch: normal;
 	font-style: normal;
@@ -204,7 +204,7 @@ footer {
   width: 49%;
   line-height: 26px;
   font-size: 11px;
-  color: #5C5C5C;
+  color: rgb(255, 136, 51);
   text-align: center;
   cursor: pointer;
   font-weight: bold;
@@ -226,7 +226,7 @@ footer {
 }
 .switch-input:checked + .switch-label {
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.65);
+  color: rgb(255, 255, 255);
 
   -webkit-transition: 0.15s ease-out;
   -moz-transition: 0.15s ease-out;
@@ -247,7 +247,7 @@ footer {
   height: 22px;
   background: #65bd63;
   border-radius: 3px;
-  background-color: #C1D82F;
+  background-color: rgb(255, 136, 51);
 
   -webkit-transition: left 0.15s ease-out;
   -moz-transition: left 0.15s ease-out;
@@ -316,6 +316,8 @@ footer {
 	-o-transition: all 0.15s ease-out;
 	transition: all 0.15s ease-out;
 }
+
+
 
 .confirm i {
 	font-weight: bold;
