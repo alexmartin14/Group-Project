@@ -2,22 +2,24 @@
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  min-height: 80px;
+  min-height: 60px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .navbar a{
-  font-size: 1.8em;
+  font-size: 1.3em;
+  text-transform: uppercase;
 }
 #myNavbar {
   float: right;
 }
 
 .nav-item {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 .logo-image {
-  padding-top: 10px;
+  padding-top: 0px;
 }
 /* Add a gray background color and some padding to the footer */
 footer {
