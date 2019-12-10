@@ -10,6 +10,7 @@
   font-size: 1.3em;
   text-transform: uppercase;
 }
+
 #myNavbar {
   float: right;
 }
@@ -21,12 +22,6 @@
 .logo-image {
   padding-top: 0px;
 }
-/* Add a gray background color and some padding to the footer */
-footer {
-  background-color: #f2f2f2;
-  padding: 25px;
-}
-
 
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
@@ -34,12 +29,15 @@ footer {
   min-height:200px;
 }
 
+.carousel-caption {
+    top: 0;
+}
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
 .carousel-caption {
   display: none;
 }
-
+}
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -54,44 +52,42 @@ footer {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-/* .fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-} */
 .footer{
   background: #152F4F;
   color:white;
+}
 
-.links{
-    ul {list-style-type: none;}
-    li a{
-      color: white;
-      transition: color .2s;
-      &:hover{
+.links ul{
+  list-style-type: none;
+}
+
+.links li a{
+  color: white;
+  transition: color .2s;
+}
+
+.links a:hover{
         text-decoration:none;
         color:#4180CB;
         }
-    }
+
+.about-company i{
+    font-size: 25px;
   }
-  .about-company{
-    i{font-size: 25px;}
-    a{
+
+.about-company a{
       color:white;
       transition: color .2s;
-      &:hover{color:#4180CB}
     }
+
+.about-company a:hover{
+  color:#4180CB
+}
+
+.location i{
+    font-size: 18px;
   }
-  .location{
-    i{font-size: 18px;}
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);}
+
+.copyright p{
+  border-top:1px solid rgba(255,255,255,.1);
 }
