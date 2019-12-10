@@ -1,4 +1,5 @@
 
+
 body {
 color: rgb(190, 105, 30);
 font-family: sans;
@@ -6,7 +7,7 @@ margin: 30px;
 }
 
 h1 {
-        text-align: center;
+        text-align: left;
         height: 50px
 }
 
@@ -20,6 +21,7 @@ li:hover {
 font-size: 1.2em;
 transition: 0.1s ease;
 }
+
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -49,6 +51,6 @@ transition: 0.1s ease;
 }
 
 .fa-instagram {
-  background: #63623 
+  background:
   color: pink;
 }
