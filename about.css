@@ -1,0 +1,116 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  min-height: 60px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar a{
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+#myNavbar {
+  float: right;
+}
+
+.nav-item {
+  padding-top: 0px;
+}
+
+.logo-image {
+  padding-top: 0px;
+}
+
+.container {
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+#row-1 {
+  padding: 20px;
+  padding-bottom: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  background-color: pink;
+}
+
+#row-2 {
+  padding-bottom: 20px;
+}
+
+.col-text {
+  justify-content: space-around;
+  font-family: 'Oswald', sans-serif;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+}
+
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Footer and Social Media icons */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer{
+  background: #152F4F;
+  color:white;
+}
+
+.links ul{
+  list-style-type: none;
+}
+
+.links li a{
+  color: white;
+  transition: color .2s;
+}
+
+.links a:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+
+.about-company i{
+    font-size: 25px;
+  }
+
+.about-company a{
+      color:white;
+      transition: color .2s;
+    }
+
+.about-company a:hover{
+  color:#4180CB
+}
+
+.location i{
+    font-size: 18px;
+  }
+
+.copyright p{
+  border-top:1px solid rgba(255,255,255,.1);
+}
