@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Save the Red Squirrels</title>
+  <title>Red Squirrel Association</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald|Cookie&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="about-page.css">
+  <link rel="stylesheet" type="text/css" href="homepage.css">
+  <link rel="shortcut icon" href="icon.ico">
 </head>
 <body>
+  <div class="header">
+    <img id="header-img" src="logo.png">
+  <h1>RED SQUIRREL ASSOCIATION</h1>
+  </div>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -21,7 +26,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="homepage.html">
         <div class="logo-image">
             <img src="logo-1.png" class="img-fluid"> Red Squirrel Association
         </div>
@@ -29,10 +34,11 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active nav-item"><a class="nav-link" href="#">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-        <li class="nav-item"><a class="nav-link btn btn-primary" href="./donate.html">
+        <li class="active nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" <a href="Donate.html">
           Donate</a></li>
+          <!-- btn btn-primary -->
         <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
       </ul>
     </div>
@@ -54,6 +60,7 @@
         <div class="carousel-caption">
           <h3>Red Squirrels</h3>
           <p>DONATE!</p>
+            <a href="Donate.html"><button>Donate Now</button></a>
         </div>
       </div>
 
@@ -62,6 +69,7 @@
         <div class="carousel-caption">
           <h3>Red Squirrels</h3>
           <p>DONATE!</p>
+            <a href="Donate.html"><button>Donate Now</button></a>
         </div>
       </div>
 
@@ -70,6 +78,7 @@
         <div class="carousel-caption">
           <h3>Red Squirrels</h3>
           <p>DONATE!</p>
+            <a href="Donate.html"><button>Donate Now</button></a>
         </div>
       </div>
     </div>
@@ -85,18 +94,68 @@
     </a>
 </div>
 <div class="container">
+  <div class="row introduction">
+    <h2>Save Our Red Squirrels!</h2>
+    <p>blah blah blah blah blah blah</p>
+  </div>
+<div class="row">
+  <div class="col-sm-4">
+    <div class="card">
+      <a href="#where">
+<img src="card-one.jpg" alt="Avatar">
+<div class="card-content">
+  <h4><b>ABOUT US</b></h4></a>
+</div>
+</div>
+  </div>
+
+  <div class="col-sm-4">
+
+  <div class="card">
+    <a href="#where">
+<img src="card-one.jpg" alt="Avatar">
+<div class="card-content">
+<h4><b>DONATE NOW</b></h4></a>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+
+<div class="card">
+  <a href="#where">
+<img src="card-one.jpg" alt="Avatar">
+<div class="card-content">
+<h4><b>CONTACT US</b></h4></a>
+</div>
+</div>
+</div>
+
+</div>
+
   <div class="row">
-    <div class="col-sm-4">
-      <h3>first card</h3>
-    </div>
-    <div class="col-sm-4">
-      <h3>second card</h3>
-    </div>
-    <div class="col-sm-4">
-      <h3>third card</h3>
+    <h1>Join Our Newsletter</h1>
+    <p>blah blah blah</p>
+
+      <form action="action_page.php">
+  <div class="subscribe-container">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>Lorem ipsum..</p>
+  </div>
+
+  <div class="subscribe-container">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
+  </div>
+
+  <div class="subscribe-container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
     </div>
   </div>
-</div>
 
 <!-- Grid row-->
 <footer>
@@ -109,6 +168,7 @@
         <p><a href="https://en-gb.facebook.com"><i class="fa fa-facebook-square mr-1"></i></a>
           <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a>
           <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+          <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
         </p>
       </div>
       <div class="col-lg-3 col-xs-12 links">
@@ -138,5 +198,26 @@
   </div>
 
 </footer>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
 </body>
 </html>
