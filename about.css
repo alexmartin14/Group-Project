@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
@@ -30,12 +33,14 @@
 
 #row-1 {
   padding: 20px;
-  padding-bottom: 20px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 5em;
   text-align: center;
   background-color: pink;
+  margin-bottom: 20px;
+  margin-left: -90px;
+  margin-right: -90px;
 }
 
 #row-2 {
@@ -47,20 +52,28 @@
   font-family: 'Oswald', sans-serif;
 }
 
-.card-body {
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 100%
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(0,0,0);
+}
+
+/* Add some padding inside the card container */
+.card-content {
+  padding: 2px 16px;
   text-align: center;
 }
 
-.card-title{
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.5em;
-}
-
-  /* margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px; */
-}
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -70,7 +83,15 @@
   text-decoration: none;
 }
 
-/* Footer and Social Media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
@@ -91,7 +112,7 @@
 
 .links a:hover{
         text-decoration:none;
-        color:#4180CB;
+        color:white;
         }
 
 .about-company i{
