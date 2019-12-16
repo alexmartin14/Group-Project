@@ -4,12 +4,14 @@
   border-radius: 0;
   min-height: 60px;
   font-family: 'Oswald', sans-serif;
+  background-color: #000000;
 }
 
 .navbar a{
   font-size: 1.3em;
   text-transform: uppercase;
 }
+
 #myNavbar {
   float: right;
 }
@@ -34,6 +36,16 @@ footer {
   min-height:200px;
 }
 
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.background-image {
+  object-fit: contain;
+}
+
 .donation-container {
 	height: 1000px;
 	font-family: 'Oswald', sans-serif;
@@ -41,6 +53,7 @@ footer {
 	font-size: 20px;
 	text-transform: uppercase;
 	margin-top: 70px;
+  padding-right: 750px
 }
 
 .donation-box {
@@ -102,7 +115,7 @@ footer {
 	color: rgb(255, 136, 51);
 	font-family: 'Oswald', sans-serif;
 	font-weight: 500;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -209,6 +222,7 @@ footer {
   cursor: pointer;
   font-weight: bold;
 }
+
 .switch-label:active {
   font-weight: bold;
 }
@@ -323,6 +337,17 @@ footer {
 	font-style: normal;
 }
 
+/* unvisited link */
+a {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
 .carousel-caption {
@@ -356,6 +381,9 @@ footer {
   background: #55ACEE;
   color: white;
 } */
+
+
+
 .footer{
   background: #152F4F;
   color:white;
