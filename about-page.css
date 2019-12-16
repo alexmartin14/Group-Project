@@ -1,9 +1,29 @@
-/* Remove the navbar's default margin-bottom and rounded borders */
+/* HEADER */
+.header {
+  padding: 0px;
+  background: #55bcc9;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family:'Oswald', sans-serif;
+  color: white;
+  padding-bottom: 10px;
+}
+
+#header-img {
+  height: 106px;
+  width: 150px;
+}
+
+/* NAVBAR */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   min-height: 60px;
   font-family: 'Oswald', sans-serif;
+  background-color: white;
+  border: none;
+  overflow: hidden;
 }
 
 .navbar a{
@@ -11,6 +31,40 @@
   text-transform: uppercase;
 }
 
+<<<<<<< Updated upstream:about-page.css
+=======
+/* setting the active link colour */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: transparent;
+  }
+
+/* setting the link to be orange */
+.navbar-inverse .navbar-nav>li>a {
+      color: #fc4445;
+  }
+
+/* setting the logo name to be orange */
+.navbar-inverse .navbar-brand {
+      color: #fc4445;
+  }
+
+/* setting the hover colour of links */
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+    background-color: transparent;
+}
+
+/* setting the hover colour of the logo name */
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: black;
+    background-color: transparent;
+}
+
+/* https://visme.co/blog/website-color-schemes/ */
+
+/* Set Nav links to the right */
+>>>>>>> Stashed changes:homepage.css
 #myNavbar {
   float: right;
 }
@@ -22,13 +76,59 @@
 .logo-image {
   padding-top: 0px;
 }
+<<<<<<< Updated upstream:about-page.css
+=======
+
+>>>>>>> Stashed changes:homepage.css
+
+/* CAROUSEL */
+.carousel{
+  padding-bottom: 10px;
+}
 
 .carousel-inner img {
   width: 100%; /* Set width to 100% */
   margin: auto;
-  min-height:200px;
+  /* min-height:200px; */
 }
 
+/* .carousel-caption {
+    top: 0;
+} */
+
+.carousel-inner button {
+  background-color: #fc4445;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.row{
+  text-align: center;
+}
+
+.subscribe-container{
+  text-align: left;
+}
+
+/* SUBSCRIBE TO NEWSLETTER */
+/* Style the input elements and the submit button */
+/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
+}
+
+.subscribe-container{
+  padding: 10px;
+  background-color: white;
+}
+
+<<<<<<< Updated upstream:about-page.css
 .carousel-caption {
     top: 0;
 }
@@ -38,6 +138,33 @@
   display: none;
 }
 }
+=======
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+/* FOOTER */
+>>>>>>> Stashed changes:homepage.css
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -53,7 +180,11 @@
 }
 
 .footer{
+<<<<<<< Updated upstream:about-page.css
   background: #152F4F;
+=======
+  background: #55bcc9;
+>>>>>>> Stashed changes:homepage.css
   color:white;
 }
 
