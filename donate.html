@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
+  <title>Red Squirrel Association</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald|Cookie|Tinos&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-  <title>Save the Red Squirrels</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/donate.css" rel="stylesheet">
-
+  <link rel="stylesheet" type="text/css" href="donate.css">
+  <link rel="shortcut icon" href="icon.ico">
 </head>
 
 <body>
@@ -29,91 +21,110 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Logo</a>
+         </button>
+        <a class="navbar-brand" href="#">
+          <div class="logo-image">
+              <img src="logo-1.png" class="img-fluid"> Red Squirrel Association
+          </div>
+        </a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Donate Now</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./About.html">About Us</a></li>
+          <li class="active nav-item"><a class="nav-link" href="./donate.html">
+            Donate</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <section class="pricing py-5">
+
+<style>
+body {
+    background-image:
+      url('red-squirrel-donate-1.jpg');
+    background-repeat: no-repeat;
+}
+</style>
+
+  <div class="donation-container">
+    <div class="donation-box">
+      <div class="title">Donation Information</div>
+        <div class="fields">
+  	       <input type="text" id="firstName" placeholder="First Name"> </input>
+  		     <input type="text" id="lastName" placeholder="Last Name"> </input>
+  		     <input type="text" id="email" placeholder="Email"> </input>
+         </div>
+        <div class="amount">
+        <div class="button">£3</div>
+  		  <div class="button">£5</div>
+  		  <div class="button">£10</div>
+  		  <div class="button">£<input type="text" class="set-amount" placeholder=""> </input></div>
+  	   </div>
+       <div class="switch">
+  		     <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+        		  <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+  	       <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+ 	 	          <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+  		     <span class="switch-selection"></span>
+      </div>
+      <div class="checkboxes">
+  	   <input type="checkbox" id="receipt" class="checkbox"/>
+  		    <label for="receipt">Email Me A Receipt</label>
+  		 <br/>
+  			<input type="checkbox" id="anon" class="checkbox"/>
+  					<label for="anon">Give Anonymously</label>
+  		 <br/>
+  			<input type="checkbox" id="list" class="checkbox"/>
+  					<label for="list">Add Me To Email List</label>
+  	  </div>
+      <div class="confirm">
+      </div>
+      <div class="donate-button"><i class="fa fa-credit-card"><a href="http://www.paypal.com"></i> Donate Now </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grid row-->
+  <footer>
+    <div class="mt-5 pt-5 pb-5 footer">
     <div class="container">
-      <div class="row">
-        <!-- Free Tier -->
-        <div class="col-lg-4">
-          <div class="card mb-5 mb-lg-0">
-            <div class="card-body">
-              <h5 class="card-title text-muted text-uppercase text-center">Just £5</h5>
-              <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
-              <hr>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited Private Projects</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated Phone Support</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
-              </ul>
-              <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
-            </div>
-          </div>
+      <div class="row footer-row">
+        <div class="col-lg-5 col-xs-12 about-company">
+          <h2>Follow Us on Social Media</h2>
+          <p><a href="https://en-gb.facebook.com"><i class="fa fa-facebook-square mr-1"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+          </p>
         </div>
-        <!-- Plus Tier -->
-        <div class="col-lg-4">
-          <div class="card mb-5 mb-lg-0">
-            <div class="card-body">
-              <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
-              <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
-              <hr>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
-                <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status Reports</li>
-              </ul>
-              <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
-            </div>
-          </div>
+        <div class="col-lg-3 col-xs-12 links">
+          <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+            <ul class="m-0 p-0">
+              <li> <a href="index.html">Home</a></li>
+              <li> <a href="About.html">About Us</a></li>
+              <li> <a href="donate.html">Donate</a></li>
+            </ul>
         </div>
-        <!-- Pro Tier -->
-        <div class="col-lg-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-              <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
-              <hr>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong></li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free Subdomains</li>
-                <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
-              </ul>
-              <a href="#" class="btn btn-block btn-primary text-uppercase">Button</a>
-            </div>
-          </div>
+        <div class="col-lg-4 col-xs-12 location">
+          <h4 class="mt-lg-0 mt-sm-4">Contact Us</h4>
+          <p class="mb-0"><i class="fa fa-phone mr-3"></i>01234567891</p>
+          <p><i class="fa fa-envelope-o mr-3"></i>redsquirrelassociation@gmail.com</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col copyright">
+          <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
         </div>
       </div>
     </div>
-  </section>
+    </div>
+
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://raw.githubusercontent.com/jerryluk/jquery.autogrow/master/jquery.autogrow-min.js"></script>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
