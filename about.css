@@ -1,5 +1,7 @@
 html {
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -54,12 +56,8 @@ html {
 }
 
 #row-2 {
-  /* padding: 10px; */
   padding-top: 10px;
   background-color: #cafafe;
-  /* justify-content: center; */
-  margin-left: -100px;
-  margin-right: -100px;
 }
 
 #row-3 {
@@ -107,15 +105,15 @@ html {
 }
 
 #card-1 {
-  margin-left: 200px;
+  text-align: center;
 }
 
 #card-2 {
-  justify-content: center;
+  text-align: center;
 }
 
 #card-3 {
-  margin-right: 200px;
+  text-align: center;
 }
 
 .desp-pic{
@@ -148,8 +146,7 @@ html {
 }
 
 .info-image {
-  height: 585px;
-  width: 585px;
+  width: 100%;
 }
 
 /* FOOTER */
@@ -209,4 +206,10 @@ html {
 
 .copyright p{
   border-top:1px solid rgba(255,255,255,.1);
+}
+
+@media only screen and (min-width: 768px){
+  #myNavbar {
+    width: auto;
+  }
 }

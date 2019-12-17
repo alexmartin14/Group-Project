@@ -395,3 +395,9 @@ a:hover {
 .copyright p{
   border-top:1px solid rgba(255,255,255,.1);
 }
+
+@media only screen and (min-width: 768px){
+  #myNavbar {
+    width: auto;
+  }
+}
