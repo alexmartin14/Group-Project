@@ -160,15 +160,8 @@ html {
   width: 585px;
 }
 
+/* FOOTER */
 /* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -187,6 +180,10 @@ html {
   color:white;
 }
 
+.footer-row {
+  text-align: left;
+}
+
 .links ul{
   list-style-type: none;
 }
@@ -198,7 +195,7 @@ html {
 
 .links a:hover{
         text-decoration:none;
-        color:white;
+        color:#4180CB;
         }
 
 .about-company i{
