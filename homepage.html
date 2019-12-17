@@ -15,7 +15,7 @@
 <body>
   <div class="header">
     <img id="header-img" src="logo.png">
-  <h1>RED SQUIRREL ASSOCIATION</h1>
+    <h1>RED SQUIRREL ASSOCIATION</h1>
   </div>
 
 <nav class="navbar navbar-inverse">
@@ -90,6 +90,7 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+
 <div class="container">
   <div class="row-introduction">
     <h1 class="intro-header">Join the Fight to Save Red Squirrels</h1>
@@ -97,97 +98,90 @@
     we aim to change that by protecting the habitats of red squirrels, raising awareness and funding research to stabilise populations.</p>
 </div>
 
-<div class="row card-row">
+<div class="row card-row" id="card-row">
   <div class="col-sm-4">
     <div class="card">
       <a href="About.html">
-<img class="card-image" src="squirrel-icon.png" alt="Squirrel Image">
-<div class="card-content">
-  <h4><b>ABOUT US</b></h4>
-  <p>Find out more about red squirrels and our efforts to raise their numbers</p>
-  </a>
-
-</div>
-</div>
+        <img class="card-image" src="squirrel-icon.png" alt="Squirrel Image">
+        <div class="card-content">
+          <h4><b>ABOUT US</b></h4>
+          <p>Find out more about red squirrels and our efforts to raise their numbers</p></a>
+        </div>
+    </div>
   </div>
 
   <div class="col-sm-4">
+    <div class="card">
+      <a href="donate.html">
+        <img class="card-image" src="donate-icon.png" alt="Donate Image">
+        <div class="card-content">
+          <h4><b>DONATE NOW</b></h4>
+          <p>Help increase the red squirrel population where you are and in the UK</p></a>
+        </div>
+      </div>
+    </div>
 
-  <div class="card">
-    <a href="donate.html">
-<img class="card-image" src="donate-icon.png" alt="Donate Image">
-<div class="card-content">
-<h4><b>DONATE NOW</b></h4>
-<p>Help increase the red squirrel population where you are and in the UK</p>
-</a>
-</div>
-</div>
-</div>
-<div class="col-sm-4">
-
-<div class="card">
-  <a href="#contact">
-<img class="card-image" src="contact-icon.jpg" alt="Contact Image">
-<div class="card-content">
-<h4><b>CONTACT US</b></h4>
-<p>Have any questions? Get in touch with us, we'd love to hear from you!</p>
-</a>
-</div>
-</div>
-</div>
-
-</div>
-<div class="row newsletter-row">
-  <h1>Join Our Newsletter</h1>
-  <p>blah blah blah</p>
-</div>
-
-<div class="row">
-  <div class="col-sm-6 forms">
-    <form action="action_page.php">
-<div class="subscribe-container">
-  <h2>Subscribe to our Newsletter</h2>
-  <p>Lorem ipsum..</p>
-</div>
-
-<div class="subscribe-container">
-  <input type="text" placeholder="Name" name="name" required>
-  <input type="text" placeholder="Email address" name="mail" required>
-  <label>
-    <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-  </label>
-</div>
-
-<div class="subscribe-container">
-  <input type="submit" value="Subscribe">
-</div>
-</form>
+  <div class="col-sm-4">
+    <div class="card">
+      <a href="#contact">
+        <img class="card-image" src="contact-icon.jpg" alt="Contact Image">
+        <div class="card-content">
+          <h4><b>CONTACT US</b></h4>
+          <p>Have any questions? Get in touch with us, we'd love to hear from you!</p></a>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-6 forms">
+
+  <div class="row newsletter-row">
+    <hr>
+    <h1 id="newsletter-title">Join Our Newsletter</h1>
+    <p id="newsletter-text">blah blah blah</p>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6 forms">
+      <form action="action_page.php">
+      <div class="subscribe-container">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Hear about our latest updates</p>
+      </div>
+
+      <div class="subscribe-container">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+          </label>
+      </div>
+
+      <div class="subscribe-container">
+        <input type="submit" value="Subscribe">
+      </div>
+      </form>
+  </div>
+
+<div class="col-sm-6 forms">
     <div class="feedback-container">
-      <h3>Please give us feedback</h3>
-  <form action="action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
+      <h3>Please give feedback</h3>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="subject">Feedback</label>
+        <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        <input type="submit" value="Submit">
+      </form>
+      </div>
+    </div>
   </div>
-</div>
 </div>
 
 
 <!-- Grid row-->
 <footer>
+  <a name="contact"></a>
   <div class="mt-5 pt-5 pb-5 footer">
   <div class="container">
     <div class="row footer-row">
@@ -209,7 +203,6 @@
       </div>
       <div class="col-lg-4 col-xs-12 location">
         <h4 class="mt-lg-0 mt-sm-4">Contact Us</h4>
-        <p>Get in touch!</p>
         <p class="mb-0"><i class="fa fa-phone mr-3"></i>01234567891</p>
         <p><i class="fa fa-envelope-o mr-3"></i>redsquirrelassociation@gmail.com</p>
       </div>

@@ -5,6 +5,9 @@
   min-height: 60px;
   font-family: 'Oswald', sans-serif;
   background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar a{
@@ -23,23 +26,14 @@
 .logo-image {
   padding-top: 0px;
 }
-/* Add a gray background color and some padding to the footer */
-footer {
-  background-color: #f2f2f2;
-  padding: 25px;
-}
-
-
-.carousel-inner img {
-  width: 100%; /* Set width to 100% */
-  margin: auto;
-  min-height:200px;
-}
-
 
 .btn-primary {
   background-color: #000000;
   border-color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
 }
 
 .background-image {
@@ -58,7 +52,7 @@ footer {
 
 .donation-box {
 	width: 390px;
-	height: 386px;
+	height: 420px;
 	background-color: #f2f2f2;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
@@ -89,8 +83,8 @@ footer {
 	width: 100%;
 	color: white;
 	text-align: center;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	font-size: 18px;
 	bottom: 0px;
 	position: absolute;
@@ -347,13 +341,7 @@ a:hover {
   color: white;
 }
 
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
-.carousel-caption {
-  display: none;
-}
-
+/* FOOTER */
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -368,47 +356,46 @@ a:hover {
   opacity: 0.7;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
-/* .fa-facebook {
-  background: #3B5998;
-  color: white;
+.footer{
+  background: #55bcc9;
+  color:white;
 }
 
-/* Twitter
-.fa-twitter {
-  background: #55ACEE;
+.footer-row {
+  text-align: left;
+}
+
+.links ul{
+  list-style-type: none;
+}
+
+.links li a{
   color: white;
-} */
+  transition: color .2s;
+}
 
-
-
-.footer{
-  background: #152F4F;
-  color:white;
-
-.links{
-    ul {list-style-type: none;}
-    li a{
-      color: white;
-      transition: color .2s;
-      &:hover{
+.links a:hover{
         text-decoration:none;
         color:#4180CB;
         }
-    }
+
+.about-company i{
+    font-size: 25px;
   }
-  .about-company{
-    i{font-size: 25px;}
-    a{
+
+.about-company a{
       color:white;
       transition: color .2s;
-      &:hover{color:#4180CB}
     }
+
+.about-company a:hover{
+  color:#4180CB
+}
+
+.location i{
+    font-size: 18px;
   }
-  .location{
-    i{font-size: 18px;}
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);}
+
+.copyright p{
+  border-top:1px solid rgba(255,255,255,.1);
 }

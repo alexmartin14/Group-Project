@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* HEADER */
 .header {
   padding: 0px;
@@ -15,56 +19,23 @@
   width: 150px;
 }
 
-
-/* NAVBAR */
+/* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   min-height: 60px;
   font-family: 'Oswald', sans-serif;
-  border: none;
-  overflow: hidden;
+  background-color: #000000;
   position: sticky;
   top: 0;
   z-index: 1;
-  }
+}
 
 .navbar a{
   font-size: 1.3em;
   text-transform: uppercase;
 }
 
-
-/* setting the link to be orange */
-.navbar-inverse .navbar-nav>li>a {
-      color: #fc4445;
-      background-color: transparent;
-  }
-
-/* setting the logo name to be orange */
-.navbar-inverse .navbar-brand {
-      color: #fc4445;
-  }
-
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-      color: #fff;
-      background-color: transparent;
-  }
-/* setting the hover colour of links */
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-    color: white;
-    background-color: transparent;
-}
-
-/* setting the hover colour of the logo name */
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-    color: black;
-    background-color: transparent;
-}
-
-/* https://visme.co/blog/website-color-schemes/ */
-
-/* Set Nav links to the right */
 #myNavbar {
   float: right;
 }
@@ -75,6 +46,15 @@
 
 .logo-image {
   padding-top: 0px;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
 }
 
 /* CAROUSEL */
@@ -92,12 +72,8 @@
     font-family:'Oswald', sans-serif;
 }
 
-#caption-1 {
-  color: #fc4445;
-}
-
 .carousel-inner button {
-  background-color: #fc4445;
+  background-color: #ff9626;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -108,10 +84,18 @@
   border-radius: 12px;
 }
 
+#caption-1 {
+  color: #000000;
+}
+
 .row{
-  padding: 30px;
+  padding: 20px;
+}
+
+#card-row {
   text-align: center;
 }
+
 
 .row-introduction {
   font-family: 'Tinos', serif;
@@ -129,6 +113,18 @@
   height: 200px;
 }
 
+hr {
+  width: 75%;
+  color: #ff0000;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  }
+
 .subscribe-container{
   text-align: left;
 }
@@ -138,7 +134,8 @@
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
   transition: 0.3s;
-  background-color: #cafafe;
+  background-color: #ff9626;
+  border-radius: 25px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -161,8 +158,17 @@
 }
 
 .newsletter-row {
-  background-color: #55bcc9;
   padding: 20px;
+}
+
+#newsletter-title {
+  color: #55bcc9;
+  text-align: center;
+}
+
+#newsletter-text {
+  color: #333;
+  text-align: center;
 }
 /* SUBSCRIBE */
 
