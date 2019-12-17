@@ -1,4 +1,8 @@
-/* HEADER */
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER ////////////////////////////////////////////////////////////////*/
 .header {
   padding: 0px;
   background: #55bcc9;
@@ -15,15 +19,16 @@
   width: 150px;
 }
 
-/* NAVBAR */
+/* NAVBAR //////////////////////////////////////////////////////////////// */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
   min-height: 60px;
   font-family: 'Oswald', sans-serif;
-  background-color: white;
-  border: none;
-  overflow: hidden;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar a{
@@ -31,37 +36,6 @@
   text-transform: uppercase;
 }
 
-/* setting the active link colour */
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: black;
-    background-color: transparent;
-  }
-
-/* setting the link to be orange */
-.navbar-inverse .navbar-nav>li>a {
-      color: #fc4445;
-  }
-
-/* setting the logo name to be orange */
-.navbar-inverse .navbar-brand {
-      color: #fc4445;
-  }
-
-/* setting the hover colour of links */
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-    color: black;
-    background-color: transparent;
-}
-
-/* setting the hover colour of the logo name */
-.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-    color: black;
-    background-color: transparent;
-}
-
-/* https://visme.co/blog/website-color-schemes/ */
-
-/* Set Nav links to the right */
 #myNavbar {
   float: right;
 }
@@ -74,8 +48,11 @@
   padding-top: 0px;
 }
 
+.navbar-inverse .navbar-brand {
+    color: white;
+}
 
-/* CAROUSEL */
+/* CAROUSEL ///////////////////////////////////////////////////////////////*/
 .carousel{
   padding-bottom: 10px;
 }
@@ -86,12 +63,13 @@
   /* min-height:200px; */
 }
 
-/* .carousel-caption {
-    top: 0;
-} */
+.carousel-caption {
+  font-family:'Oswald', sans-serif;
+  font-size: 1.3em;
+}
 
 .carousel-inner button {
-  background-color: #fc4445;
+  background-color: #ff9626;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -102,37 +80,116 @@
   border-radius: 12px;
 }
 
+#caption-1 {
+  color: #000000;
+}
+
 .row{
+  padding: 20px;
+}
+
+
+/* FIRST ROW ////////////////////////////////////////////////////////// */
+
+
+.row-introduction {
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2em;
+}
+
+.intro-header {
+  color:#55bcc9;
+}
+
+/* CARD ROW /////////////////////////////////////////////////////// */
+#card-row {
   text-align: center;
 }
 
+.card-image {
+  width: 200px;
+  height: 200px;
+}
+
+hr {
+  width: 75%;
+  color: #55bcc9;
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  }
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+  background-color: #ff9626;
+  border-radius: 25px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-content a{
+  color: black;
+  text-decoration: none;
+  font-family:'Oswald', sans-serif;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+/* SIGN UPS////////////////////////////////////////////////////////// */
 .subscribe-container{
   text-align: left;
 }
 
-/* SUBSCRIBE TO NEWSLETTER */
-/* Style the input elements and the submit button */
+.simple-subscription-form {
+  background-color: orange;
+}
+
+.newsletter-row {
+  padding: 20px;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2em;
+}
+
+#newsletter-title {
+  color: #55bcc9;
+}
+
+#newsletter-text {
+  color: #333;
+}
+
+/* SUBSCRIBE///////////////////////////////////////////////////////////// */
+
 /* Style the form element with a border around it */
 form {
   border: 4px solid #f1f1f1;
 }
 
-.subscribe-container{
-  padding: 10px;
-  background-color: white;
+/* Add some padding and a grey background color to containers */
+.subscribe-container {
+  padding: 20px;
+  background-color: #f2f2f2;
 }
 
-<<<<<<< Updated upstream:about-page.css
-.carousel-caption {
-    top: 0;
-}
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media (max-width: 600px) {
-.carousel-caption {
-  display: none;
-}
-}
-=======
+/* Style the input elements and the submit button */
 input[type=text], input[type=submit] {
   width: 100%;
   padding: 12px;
@@ -149,7 +206,7 @@ input[type=checkbox] {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #55bcc9;
   color: white;
   border: none;
 }
@@ -157,8 +214,49 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.8;
 }
-/* FOOTER */
->>>>>>> Stashed changes:homepage.css
+
+/* FEEDBACK */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 5px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+#subject {
+  height: 60px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.feedback-container {
+  text-align: left;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* FOOTER ////////////////////////////////////////////////////////////////*/
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -175,11 +273,15 @@ input[type=submit]:hover {
 
 .footer{
   background: #55bcc9;
-  color:white;
+  color: white;
+}
+
+.footer-row {
+  text-align: left;
 }
 
 .links ul{
-  list-style-type: none;
+  list-style-type: circle;
 }
 
 .links li a{
