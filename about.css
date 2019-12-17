@@ -72,7 +72,7 @@ html {
 }
 
 #row-1 {
-  padding: 20px;
+  padding-bottom: 20px;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 5em;
@@ -98,6 +98,8 @@ html {
   transition: 0.3s;
   border-radius: 5px;
   background-color: #cafafe;
+  height: 350px;
+  width: 300px;
 }
 
 .card img {
@@ -123,6 +125,28 @@ html {
 .desp-pic{
   height: 590px;
   width: 590px;
+}
+
+#about {
+  padding-bottom: 20px;
+}
+
+#where {
+  padding-bottom: 20px;
+}
+
+#what {
+  padding-bottom: 20px;
+}
+
+.about-info {
+  font-size: 1.4em;
+  color: grey;
+}
+
+.info-image {
+  height: 585px;
+  width: 585px;
 }
 
 /* Style all font awesome icons */
