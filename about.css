@@ -1,0 +1,212 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  min-height: 60px;
+  font-family: 'Oswald', sans-serif;
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar a{
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+#myNavbar {
+  float: right;
+}
+
+.nav-item {
+  padding-top: 0px;
+}
+
+.logo-image {
+  padding-top: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+
+.container {
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+#row-1 {
+  /* padding: 5px; */
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  text-align: center;
+  /* background-color: #55bcc9; */
+  /* margin-bottom: 20px;
+  margin-left: -90px;
+  margin-right: -90px; */
+}
+
+#row-2 {
+  /* padding: 10px; */
+  padding-top: 10px;
+  background-color: #cafafe;
+  /* justify-content: center; */
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+#row-3 {
+  padding-top: 20px;
+}
+
+
+.col-text {
+  justify-content: space-around;
+  font-family: 'Oswald', sans-serif;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: rgb(255, 150, 38);
+  height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(0,0,0);
+}
+
+/* Add some padding inside the card container */
+.card-content {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.card-content a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Abel', sans-serif;
+}
+
+#card-1 {
+  margin-left: 200px;
+}
+
+#card-2 {
+  justify-content: center;
+}
+
+#card-3 {
+  margin-right: 200px;
+}
+
+.desp-pic{
+  height: 590px;
+  width: 590px;
+}
+
+#about {
+  padding-bottom: 20px;
+}
+
+#where {
+  padding-bottom: 20px;
+}
+
+#what {
+  padding-bottom: 20px;
+}
+
+#map {
+  width: 200px;
+  height: 250px;
+  padding-top: 10px;
+}
+
+.about-info {
+  font-size: 1.4em;
+  color: #585858;
+  font-family: 'Abel', sans-serif;
+}
+
+.info-image {
+  height: 585px;
+  width: 585px;
+}
+
+/* FOOTER */
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.footer{
+  background: #55bcc9;
+  color:white;
+}
+
+.footer-row {
+  text-align: left;
+}
+
+.links ul{
+  list-style-type: cirlce;
+}
+
+.links li a{
+  color: white;
+  transition: color .2s;
+}
+
+.links a:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+
+.about-company i{
+    font-size: 25px;
+  }
+
+.about-company a{
+      color:white;
+      transition: color .2s;
+    }
+
+.about-company a:hover{
+  color:#4180CB
+}
+
+.location i{
+    font-size: 18px;
+  }
+
+.copyright p{
+  border-top:1px solid rgba(255,255,255,.1);
+}
