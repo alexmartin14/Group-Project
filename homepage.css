@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* HEADER */
+/* HEADER ////////////////////////////////////////////////////////////////*/
 .header {
   padding: 0px;
   background: #55bcc9;
@@ -19,7 +19,7 @@ html {
   width: 150px;
 }
 
-/* Remove the navbar's default margin-bottom and rounded borders */
+/* NAVBAR //////////////////////////////////////////////////////////////// */
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
@@ -52,7 +52,7 @@ html {
     color: white;
 }
 
-/* CAROUSEL */
+/* CAROUSEL ///////////////////////////////////////////////////////////////*/
 .carousel{
   padding-bottom: 10px;
 }
@@ -88,9 +88,8 @@ html {
   padding: 20px;
 }
 
-#card-row {
-  text-align: center;
-}
+
+/* FIRST ROW ////////////////////////////////////////////////////////// */
 
 
 .row-introduction {
@@ -102,6 +101,11 @@ html {
 
 .intro-header {
   color:#55bcc9;
+}
+
+/* CARD ROW /////////////////////////////////////////////////////// */
+#card-row {
+  text-align: center;
 }
 
 .card-image {
@@ -120,10 +124,6 @@ hr {
   border-style: inset;
   border-width: 1px;
   }
-
-.subscribe-container{
-  text-align: left;
-}
 
 
 .card {
@@ -150,6 +150,12 @@ hr {
   padding: 2px 16px;
 }
 
+
+/* SIGN UPS////////////////////////////////////////////////////////// */
+.subscribe-container{
+  text-align: left;
+}
+
 .simple-subscription-form {
   background-color: orange;
 }
@@ -169,7 +175,8 @@ hr {
 #newsletter-text {
   color: #333;
 }
-/* SUBSCRIBE */
+
+/* SUBSCRIBE///////////////////////////////////////////////////////////// */
 
 /* Style the form element with a border around it */
 form {
@@ -249,7 +256,7 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/* FOOTER */
+/* FOOTER ////////////////////////////////////////////////////////////////*/
 /* Style all font awesome icons */
 .fa {
   padding: 20px;
