@@ -27,11 +27,6 @@
   padding-top: 0px;
 }
 
-.btn-primary {
-  background-color: #000000;
-  border-color: #000000;
-}
-
 .navbar-inverse .navbar-brand {
     color: white;
 }
@@ -366,7 +361,7 @@ a:hover {
 }
 
 .links ul{
-  list-style-type: none;
+  list-style-type: circle;
 }
 
 .links li a{
